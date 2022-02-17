@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Sandefjord Akvarium åpner 22.januar" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandefjord Akvarium</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="/IMG/Sandefjord Akvarium logosymbol.png"
+    />
+    <link rel="stylesheet" href="/CSS/ContactUsStyles.css" />
+  </head>
+  <body>
+    <!-- "Hamburger menu-hedaer kodekilede https://www.youtube.com/watch?v=sjrp1FEHnyA - 
+Tilpasset og gjort litt om til passende design -->
+
+    <header class="header">
+      <a href="index.html">
+        <img
+          src="/IMG/Sandefjord Akvarium logo.png"
+          alt="Sandefjord Akvarium logo"
+          class="logo"
+        />
+      </a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="nav-icon"></span
+      ></label>
+      <ul class="menu">
+        <li><a href="index.html">Forside</a></li>
+        <li><a href="BuyTickets.html">Kjøp billetter</a></li>
+        <li><a href="ContactUs.html">Kontakt oss</a></li>
+      </ul>
+    </header>
+
+    <!-- "SectionOne" Banner container begynner her -->
+
+    <div class="banner-container">
+      <div class="title">
+        <h1>Vi ses i akvariet!</h1>
+      </div>
+    </div>
+
+    <!-- Kontakt form begynner her -->
+
+    <section id="form-box">
+      <div class="container">
+        <div class="form-box form-box-grid">
+          <div class="form-info">
+            <h3>Kontaktinformasjon <br />Sandefjord Akvarium</h3>
+            <p>Torget 7, 3210 Sandefjord</p>
+            <p>Tlf. 916 09 200</p>
+            <p>sandefjord.akvarium@gmail.com</p>
+            <p>www.sandefjord.akvarium.no</p>
+          </div>
+
+          <div class="form-input">
+            <h3>Send oss en melding</h3>
+            <form>
+              <p>
+                <label for="first_name">Fornavn</label>
+                <input
+                  type="text"
+                  name="first_name"
+                  placeholder="Fornavn..."
+                  required
+                />
+              </p>
+              <p>
+                <label for="Last_name">Etternavn</label>
+                <input
+                  type="text"
+                  name="last_name"
+                  placeholder="Etternavn..."
+                  required
+                />
+              </p>
+              <p class="full">
+                <label for="email">E-post</label>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="E-post..."
+                  required
+                />
+              </p>
+              <p class="full">
+                <label for="message">Skriv din melding</label>
+                <textarea name="message" required></textarea>
+              </p>
+              <p class="full">
+                <button type="submit">Send melding</button>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer begynner her -->
+
+    <footer>
+      <div class="footer-container">
+        <div class="left-box">
+          <img
+            src="/IMG/Sandefjord Akvarium logo light.png"
+            alt="logo til Sandefjord Akvarium"
+            class="logo"
+          />
+          <div class="social-media">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+          </div>
+          <p class="left-text">© 2022 Sandefjord Akvarium.</p>
+        </div>
+
+        <div class="right-box">
+          <h2>Vil du jobbe hos oss?</h2>
+          <div class="border-under"></div>
+          <p>Vi trenger flere flinke medarbeidere</p>
+          <a href="ContactUs.html" class="btn">Ta kontakt</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
